@@ -41,7 +41,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 -->
- For my first milestone I used servos, batteries, an ardiuno, ardiuno shield, different screw types and more to power and build the 2 main parts of my solar tracker. The batteries help power the solar panel allowing it to move to spots that have a greater amount of sunlight. I challenged I noticed for future milestones is how I will 
+ For my first milestone I used servos, batteries, an ardiuno, ardiuno shield, different screw types and more to power and build the 2 main parts of my solar tracker. The batteries help power the solar panel allowing it to move to spots that have a greater amount of sunlight. A challenge I noticed for future milestones is how I will use the pins covered by the ardiuno shield for future modifcations that will pins to connect to the ardiuno and solar tracker. 
 - Technical progress you've made so far
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
