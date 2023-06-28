@@ -5,10 +5,10 @@ Using photoresisors, servo motors and a solar panel my project becomes a solar t
 |:--:|:--:|:--:|:--:|
 | Kritika C | Westmont High School | Environmental Engineering | Incoming Senior
 
-<!-- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
- --> 
+ 
 # Complete and working project with modifcations
 <!--
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
@@ -36,22 +36,35 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 -->
- For my first milestone I used servos, batteries, an ardiuno, ardiuno shield, different screw types and more to power and build the 2 main parts of my solar tracker. The batteries help power the solar panel allowing it to move to spots that have a greater amount of sunlight. A challenge I noticed for future milestones is how I will use the pins covered by the ardiuno shield for future modifcations that will need the pins to connect to the ardiuno and solar tracker. My plan is to continue adding modifcations one of which will be creating a connection to charge phones and allowing the robot to move on wheels. 
+For my first milestone, I used servos, batteries, an arduino, arduino shield, different screw types, and more to power and build the 2 main parts of my solar tracker. The batteries help power the solar panel allowing it to move to spots that have a greater amount of sunlight. A challenge I noticed for future milestones is how I will use the pins covered by the arduino shield for future modifications that will need the pins to connect to the arduino and solar tracker. My plan is to continue adding modifications, such as creating a connection to charge phones and allowing the robot to move on wheels.
+
+
 <!--
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser.
+
  -# Code
-      }
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
-  Serial.println("Hello World!");
+  // servo connections
+  horizontal.attach(5);
+  vertical.attach(6);
+  // move servos
+  horizontal.write(90);
+  vertical.write(45);
+  delay(3000);
 }
-
 void loop() {
-  // put your main code here, to run repeatedly:
+  // void loop() {
 
-}
+  int tr = analogRead(ldrTR); // top right
+  int tl = analogRead(ldrTL); // top left
+  int br = analogRead(ldrBR); // bottom right
+  int bl = analogRead(ldrBL); // bottom left
+  int north = analogRead (N);
+  int south = analogRead (S);
+  int dtime = 0; // change for debugging only
+  int tol = 50;
 ```
 
 # Bill of Materials
@@ -69,4 +82,5 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/) 
+
 -->
