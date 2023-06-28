@@ -8,21 +8,16 @@ Using photoresisors, servo motors and a solar panel my project becomes a solar t
 <!-- **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
-  
+ --> 
 # Complete and working project with modifcations
-
+<!--
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+-->
 For your final milestone, explain the outcome of your project. Key details to include are:
-For my final milestone I have fully completed the solar tracker and added modifcations that help level up the base project. My biggest challenges throughout the Blue Stamp Engineering program was working on time management and thinking/implementing modifactions that I could add to my project. My biggest triumph throughout the project was getting my base project to work smoothly on my first try without having to disassemble big parts of it to fix it. Throughout the program I learned how to sucessfully code components that I added into my orginal project to the code, soldering, component wiring, and more. 
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
-
-
-
+For my final milestone I have fully completed the solar tracker and added modifcations that help level up the base project. My biggest challenges throughout the Blue Stamp Engineering program was working on time management and thinking/implementing modifactions that I could add to my project. My biggest triumph throughout the project was getting my base project to work smoothly on my first try without having to disassemble big parts of it to fix it. Throughout the program I learned how to sucessfully code components that I added into my orginal project to the code, soldering, component wiring, and more. I hope to learn in the future more about mechanical engineering and electrical engineering as I learned the challenged myself with skills from both types of engineering throughout Blue Stamp. 
+<!--
 # Second Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
