@@ -39,8 +39,8 @@ For my first milestone, I used servos, batteries, an arduino, arduino shield, di
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser.
 
-`# Code
->
+# Code
+```
  * Dual_Axis_Tracker_V3.ino
  * Brown Dog Gadgets <https://www.browndoggadgets.com/>
  */
@@ -148,8 +148,6 @@ else if (NS < -1* tol){digitalWrite(in1, speed);
   digitalWrite(in2, 0);
  }
  
-
-
   // check if the difference is in the tolerance else change vertical angle
   if (-1 * tol > dvert || dvert > tol) {
     if (avt > avd) {
@@ -190,5 +188,4 @@ else if (NS < -1* tol){digitalWrite(in1, speed);
   delay(dtime);  
 }
 
-'''
-`
+```
