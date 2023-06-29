@@ -139,16 +139,19 @@ int NS = north - south;
 if (NS > tol ){digitalWrite(in1, 0);
   digitalWrite(in2, speed);
   }
+
 // move backwards 
 else if (NS < -1* tol){digitalWrite(in1, speed);
   digitalWrite(in2, 0);
 }
+
  // stop moving 
  else {digitalWrite(in1, 0);
   digitalWrite(in2, 0);
  }
  
- 
+
+
   // check if the difference is in the tolerance else change vertical angle
   if (-1 * tol > dvert || dvert > tol) {
     if (avt > avd) {
