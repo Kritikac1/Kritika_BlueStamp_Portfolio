@@ -189,11 +189,10 @@ else if (NS < -1* tol){digitalWrite(in1, speed);
 }
 
 ```
-<!-- # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
+ # Bill of Materials
+<!--Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
-
-| **Part** | **Note** | **Price** | **Link** |
+-->
 |:--:|:--:|:--:|:--:|
 | Dual axis solar tracker|Base solar tracker project | $150 | https://www.amazon.com/Brown-Dog-Gadgets-Tracker-Educational/dp/B07X4LCHLY/ref=sr_1_10?crid=QQ2E2TQW2O2Y&keywords=dual+axis+solar+tracker&qid=1688071265&sprefix=dual+axis+%2Caps%2C167&sr=8-10 |
 |:--:|:--:|:--:|:--:|
@@ -201,7 +200,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | Photoresitors| Used to measure resistance and light values from a light source| 5.99 | https://www.amazon.com/eBoot-Photoresistor-Sensitive-Resistor-Dependent/dp/B01N7V536K/ref=sr_1_1?crid=166L5796OYRJB&dd=GDYMwvM5SarwxK7z_eOewQ%2C%2C&keywords=photoresistors&qid=1687446872&refinements=p_90%3A8308921011&rnid=8308919011&sprefix=photoresistors%2Caps%2C131&sr=8-1|
 |:--:|:--:|:--:|:--:|
-
+<!--
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
