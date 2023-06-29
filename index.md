@@ -41,6 +41,7 @@ For my first milestone, I used servos, batteries, an arduino, arduino shield, di
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser.
 
 # Code
+'''
 void setup() {
   Serial.begin(9600);
   // servo connections
@@ -64,7 +65,9 @@ void loop() {
   int tol = 50;
 ```
 
-<!--
+
+
+
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
