@@ -23,7 +23,6 @@ For my final milestone, I have fully completed the solar tracker and added modif
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 For my second milestone I have added 2 motors and wheels to the bottom of my solar tracker as well as wire up a motor control board to allow for the motors to run and the robot to move by itself. So far throughout the project i'm suprised by the many little things that if not taken care of could cause a big problem later on. For example just changing a small wire could stop half of the ardiuno from working. I overcame the challenge of not knowing where to put the pins blocked by the ardiuno shield. I overcame this by finding pins which were covered but not being used and attached the wires underneath the board. 
  
 
@@ -41,7 +40,35 @@ For my first milestone, I used servos, batteries, an arduino, arduino shield, di
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser.
 
 # Code
-'''
+onst int in1 = 4; // in1,2 for right wheel
+const int in2 = 3;
+int speed = 150;
+// include Servo library
+#include <Servo.h>
+
+// horizontal servo
+Servo horizontal;
+int servoh = 90;
+
+int servohLimitHigh = 180;
+int servohLimitLow = 65;
+
+Servo vertical;
+int servov = 90;
+
+int servovLimitHigh = 120;
+int servovLimitLow = 15;
+
+
+// LDR pin connections
+int ldrTR = 0; // LDR top right
+int ldrTL = 1; // LDR top left
+int ldrBR = 2; // LDR bottom right
+int ldrBL = 3; // LDR bottom left
+int N= 4;
+int S=5;
+// put other varibales for south, east and west
+int tol = 50;
 void setup() {
   Serial.begin(9600);
   // servo connections
@@ -52,8 +79,9 @@ void setup() {
   vertical.write(45);
   delay(3000);
 }
+
+
 void loop() {
-  // void loop() {
 
   int tr = analogRead(ldrTR); // top right
   int tl = analogRead(ldrTL); // top left
@@ -63,26 +91,95 @@ void loop() {
   int south = analogRead (S);
   int dtime = 0; // change for debugging only
   int tol = 50;
-```
+
+  int avt = (tl + tr) / 2; // average value top
+  int avd = (bl + br) / 2; // average value bottom
+  int avl = (tl + bl) / 2; // average value left
+  int avr = (tr + br) / 2; // average value right
+
+  int dvert = avt - avd;  // check the difference of up and down
+  int dhoriz = avl - avr; // check the difference of left and right
 
 
+  // send data to the serial monitor if desired
+  Serial.print(tl);
+  Serial.print(" ");
+  Serial.print(tr);
+  Serial.print(" ");
+  Serial.print(bl);
+  Serial.print(" ");
+  Serial.print(br);
+  Serial.print("  ");
+  Serial.print(avt);
+  Serial.print(" ");
+  Serial.print(avd);
+  Serial.print(" ");
+  Serial.print(avl);
+  Serial.print(" ");
+  Serial.print(avr);
+  Serial.print("  ");
+  Serial.print(dtime);
+  Serial.print("   ");
+  Serial.print(tol);
+  Serial.print("  ");
+  Serial.print(servov);
+  Serial.print("   ");
+  Serial.print(servoh);
+  Serial.println(" ");
 
 
+int NS = north - south;
+// move forward
+if (NS > tol ){digitalWrite(in1, 0);
+  digitalWrite(in2, speed);
+  }
+// move backwards 
+else if (NS < -1* tol){digitalWrite(in1, speed);
+  digitalWrite(in2, 0);
+}
+ // stop moving 
+ else {digitalWrite(in1, 0);
+  digitalWrite(in2, 0);
+ }
+ 
+ 
+  // check if the difference is in the tolerance else change vertical angle
+  if (-1 * tol > dvert || dvert > tol) {
+    if (avt > avd) {
+      servov = ++servov;
+      if (servov > servovLimitHigh) {
+        servov = servovLimitHigh;
+      }
+    }
+    else if (avt < avd) {
+      servov = --servov;
+      if (servov < servovLimitLow) {
+        servov = servovLimitLow;
+      }
+    }
+    vertical.write(servov);
+  }
 
-# Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
-
-| **Part** | **Note** | **Price** | **Link** |
-|:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/) 
-
--->
+  // check if the difference is in the tolerance else change horizontal angle
+  if (-1 * tol > dhoriz || dhoriz > tol) {
+    if (avl > avr) {
+      servoh = --servoh;
+      if (servoh < servohLimitLow) {
+        servoh = servohLimitLow;
+      }
+    }
+    else if (avl < avr) {
+      servoh = ++servoh;
+      if (servoh > servohLimitHigh) {
+        servoh = servohLimitHigh;
+      }
+    }
+    else if (avl = avr) {
+      // nothing
+    }
+    horizontal.write(servoh);
+  }
+  
+  delay(dtime);
+  
+}
