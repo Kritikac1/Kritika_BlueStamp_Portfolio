@@ -198,8 +198,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 |:--:|:--:|:--:|:--:|
 | DC Buck Converter| Convertor for volts to amps (which I used to charge a phone with the solar tracker) | $5.99|https://www.amazon.com/KOOBOOK-DC-DC-Charger-Module-Converter/dp/B07SDB3CVX/ref=asc_df_B07SGWRQGX/?tag=&linkCode=df0&hvadid=385215532707&hvpos=&hvnetw=g&hvrand=1340376542165361001&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9027632&hvtargid=pla-844459571215&ref=&adgrpid=73789134890&th=1|
 |:--:|:--:|:--:|:--:|
-| Photoresitors| Used to measure resistance and light values from a light source| 5.99 | https://www.amazon.com/eBoot-Photoresistor-Sensitive-Resistor-Dependent/dp/B01N7V536K/ref=sr_1_1?crid=166L5796OYRJB&dd=GDYMwvM5SarwxK7z_eOewQ%2C%2C&keywords=photoresistors&qid=1687446872&refinements=p_90%3A8308921011&rnid=8308919011&sprefix=photoresistors%2Caps%2C131&sr=8-1|
+| Photoresitors| Used to measure resistance and light values from a light source| $5.99 | https://www.amazon.com/eBoot-Photoresistor-Sensitive-Resistor-Dependent/dp/B01N7V536K/ref=sr_1_1?crid=166L5796OYRJB&dd=GDYMwvM5SarwxK7z_eOewQ%2C%2C&keywords=photoresistors&qid=1687446872&refinements=p_90%3A8308921011&rnid=8308919011&sprefix=photoresistors%2Caps%2C131&sr=8-1|
 |:--:|:--:|:--:|:--:|
+| Gearbox motor, controll board, wheel set| | $12.99 |https://www.amazon.com/ShangHJ-Gearbox-Motor-200RPM-Wheel/dp/B09F9HNP7M/ref=sr_1_6?crid=374OJXZNPQEGI&keywords=arduino+motor+kit+board+and+wheels+4+pieces&qid=1687449018&sprefix=ardiuno+motor+kit+board+and+wheels+4+pecies+%2Caps%2C126&sr=8-6|
 <!--
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
