@@ -190,9 +190,7 @@ else if (NS < -1* tol){digitalWrite(in1, speed);
 
 ```
  # Bill of Materials
-<!--Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
--->
+|:--:|:--:|:--:|:--:|
 |  Dual axis solar tracker|Base solar tracker project  |  $150  | https://www.amazon.com/Brown-Dog-Gadgets-Tracker-Educational/dp/B07X4LCHLY/ref=sr_1_10?crid=QQ2E2TQW2O2Y&keywords=dual+axis+solar+tracker&qid=1688071265&sprefix=dual+axis+%2Caps%2C167&sr=8-10 |
 |:--:|:--:|:--:|:--:|
 |:--:|:--:|:--:|:--:|
