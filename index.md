@@ -1,8 +1,9 @@
 # Solar Tracker 
 Using photoresistors, servo motors, and a solar panel, my project becomes a solar tracker that measures the best position for the solar panel based on the of the sun voltage of the sun tracked by the photoresistor values by moving the base part which has the solar panel to areas with more sun.
 
-| **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
+| **Engineer** | **School** | **Area of Interest** | **Grade** |
+|:--:|:--:|:--:|
 | Kritika C | Westmont High School | Environmental Engineering | Incoming Senior
 |:--:|:--:|:--:|:--:|
 
