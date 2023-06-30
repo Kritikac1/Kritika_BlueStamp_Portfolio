@@ -3,7 +3,7 @@ Using photoresistors, servo motors, and a solar panel, my project becomes a sola
 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
-|:--:|:--:|:--:||:--:|:--:|:--:|:--:|
+|:--:|:--:|:--:||:--:|
 | Kritika C | Westmont High School | Environmental Engineering | Incoming Senior
 |:--:|:--:|:--:|:--:|
 
