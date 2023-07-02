@@ -194,17 +194,17 @@ else if (NS < -1* tol){digitalWrite(in1, speed);
 # Bill of Materials
 
 
-| Dual axis solar tracker|Base solar tracker project  | $150 |
+|Dual axis solar tracker|Base solar tracker project  | $150 | 
 https://www.amazon.com/Brown-Dog-Gadgets-Tracker-Educational/dp/B07X4LCHLY/ref=sr_1_10?crid=QQ2E2TQW2O2Y&keywords=dual+axis+solar+tracker&qid=1688071265&sprefix=dual+axis+%2Caps%2C167&sr=8-10 |
 |:--:|:--:|:--:|:--:|
-| DC Buck Converter| Convertor for volts to amps (which I used to charge a phone with the solar tracker) | $5.99| 
+|DC Buck Converter| Convertor for volts to amps (which I used to charge a phone with the solar tracker) | $5.99| 
 https://www.amazon.com/KOOBOOK-DC-DC-Charger-Module-Converter/dp/B07SDB3CVX/ref=asc_df_B07SGWRQGX/ tag=&linkCode=df0&hvadid=385215532707&hvpos=&hvnetw=g&hvrand
 =1340376542165361001&hvpone=&hvptwo =&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9027632 &hvtargid=pla-844459571215&ref=&adgrpid=73789134890&th=1|
 |:--:|:--:|:--:|:--:|
-| Photoresitors| Used to measure resistance and light values from a light source| $5.99 |
+|Photoresitors| Used to measure resistance and light values from a light source| $5.99 |
 https://www.amazon.com/eBoot-Photoresistor-Sensitive-Resistor-Dependent/dp/B01N7V536K/ref=sr_1_1?crid=166L5796OYRJB&dd=GDYMwvM5SarwxK7z_eOewQ%2C%2C&keywords=photoresistors&qid=1687446872&refinements=p_90%3A8308921011&rnid=8308919011&sprefix=photoresistors%2Caps%2C131&sr=8-1|
 |:--:|:--:|:--:|:--:|
-| Gearbox motor, controll board, wheel set| A set with motors, wheels, wires and a motor controll board to implement motors into a project.| $12.99 |https://www.amazon.com/ShangHJ-Gearbox-Motor-200RPM-Wheel/dp/B09F9HNP7M/ref=sr_1_6crid=374OJXZNPQEGI&keywords=arduino+motor+kit+board+and+wheels+4+pieces&qid=1687449018 &sprefix=ardiuno+motor+kit+board+and+wheels+4+pecies+%2Caps%2C126&sr=8-6|
+|Gearbox motor, controll board, wheel set| A set with motors, wheels, wires and a motor controll board to implement motors into a project.| $12.99 |https://www.amazon.com/ShangHJ-Gearbox-Motor-200RPM-Wheel/dp/B09F9HNP7M/ref=sr_1_6crid=374OJXZNPQEGI&keywords=arduino+motor+kit+board+and+wheels+4+pieces&qid=1687449018 &sprefix=ardiuno+motor+kit+board+and+wheels+4+pecies+%2Caps%2C126&sr=8-6|
 
 <!--
 # Other Resources/Examples
