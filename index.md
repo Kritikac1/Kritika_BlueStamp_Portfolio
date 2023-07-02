@@ -193,7 +193,8 @@ else if (NS < -1* tol){digitalWrite(in1, speed);
 ```
 # Bill of Materials
 
-|Dual axis solar tracker|Base solar tracker project  | $150 |
+
+| Dual axis solar tracker|Base solar tracker project  | $150 |
 https://www.amazon.com/Brown-Dog-Gadgets-Tracker-Educational/dp/B07X4LCHLY/ref=sr_1_10?crid=QQ2E2TQW2O2Y&keywords=dual+axis+solar+tracker&qid=1688071265&sprefix=dual+axis+%2Caps%2C167&sr=8-10 |
 |:--:|:--:|:--:|:--:|
 | DC Buck Converter| Convertor for volts to amps (which I used to charge a phone with the solar tracker) | $5.99| 
