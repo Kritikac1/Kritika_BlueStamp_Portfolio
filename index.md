@@ -207,7 +207,7 @@ https://www.amazon.com/KOOBOOK-DC-DC-Charger-Module-Converter/dp/B07SDB3CVX/ref=
 https://www.amazon.com/eBoot-Photoresistor-Sensitive-Resistor-Dependent/dp/B01N7V536K/ref=sr_1_1?crid=166L5796OYRJB&dd=GDYMwvM5SarwxK7z_eOewQ%2C%2C&keywords=photoresistors&qid=1687446872&refinements=p_90%3A8308921011&rnid=8308919011&sprefix=photoresistors%2Caps%2C131&sr=8-1|
 |:--:|:--:|:--:|:--:|
 
-| Gearbox motor, controll board, wheel set| A set with motors, wheels, wires and a motor controll board to implement motors into a project.| $12.99 |https://www.amazon.com/ShangHJ-Gearbox-Motor-200RPM-Wheel/dp/B09F9HNP7M/ref=sr_1_6crid=374OJXZNPQEGI&keywords=arduino+motor+kit+board+and+wheels+4+pieces&qid=1687449018 &sprefix=ardiuno+motor+kit+board+and+wheels+4+pecies+%2Caps%2C126&sr=8-6|
+Gearbox motor, controll board, wheel set| A set with motors, wheels, wires and a motor controll board to implement motors into a project.| $12.99 |https://www.amazon.com/ShangHJ-Gearbox-Motor-200RPM-Wheel/dp/B09F9HNP7M/ref=sr_1_6crid=374OJXZNPQEGI&keywords=arduino+motor+kit+board+and+wheels+4+pieces&qid=1687449018 &sprefix=ardiuno+motor+kit+board+and+wheels+4+pecies+%2Caps%2C126&sr=8-6|
 
 <!--
 # Other Resources/Examples
